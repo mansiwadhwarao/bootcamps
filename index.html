@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Mindplexus Pilot Bootcamps in Hyderabad. Curriculum details, day-by-day journeys, custom simulations, and student projects.">
+    <meta name="keywords" content="Mindplexus bootcamps, math bootcamp, money logic, AI skills, youth education, Hyderabad">
+    <title>Mindplexus Bootcamps | Curriculum & Details</title>
+    
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="../style.css">
+    
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <style>
+        /* Dedicated child-page structural layout */
+        html {
+            font-size: 90%;
+        }
+        body {
+            background-color: var(--brand-white);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .main-content {
+            flex: 1;
+            padding-bottom: 80px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .bootcamps-hero {
+            padding-top: 130px;
+            padding-bottom: 50px;
+            text-align: center;
+            background: radial-gradient(circle at top right, rgba(223, 56, 162, 0.02), transparent 40%),
+                        radial-gradient(circle at bottom left, rgba(155, 42, 238, 0.03), transparent 50%);
+            position: relative;
+            z-index: 2;
+        }
+        
+        /* Ensure navigation links display scrolled background dynamically since it's a subpage */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.95);
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .footer {
+            margin-top: auto;
+            background-color: var(--brand-black);
+            color: var(--brand-white);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="hero-plexus-canvas"></canvas>
+
+    <!-- Navigation Header -->
+    <header class="navbar scrolled">
+        <div class="container nav-container">
+            <a href="../index.html" class="logo-wrapper">
+                <img src="../assets/emblem_white.jpg" alt="Mindplexus Logo" class="logo-img">
+                <div class="logo-text-group">
+                    <span class="logo-title">Mindplexus</span>
+                    <span class="logo-tagline">Education for a Strategic Edge</span>
+                </div>
+            </a>
+            
+            <ul class="nav-links">
+                <li><a href="../index.html" class="nav-link">Home</a></li>
+                <li><a href="../index.html#about" class="nav-link">About</a></li>
+                <li><a href="../index.html#pedagogy" class="nav-link">Pedagogy</a></li>
+                <li><a href="../index.html#founder" class="nav-link">Founder</a></li>
+                <li><a href="../index.html#testimonials" class="nav-link">Feedback</a></li>
+                <li><a href="../index.html#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <!-- Hero area for Bootcamps -->
+        <section class="bootcamps-hero">
+            <div class="container">
+                <div class="badge">Curriculum & Structure</div>
+                <h1 class="section-title" style="font-size: 3rem; margin-top: 10px; margin-bottom: 20px;">Explore Our Pilot Bootcamps</h1>
+                <p class="section-description" style="max-width: 800px; margin: 0 auto;">
+                    We have successfully completed our pilot cohorts in Hyderabad. Explore the comprehensive course structures and interactive simulations that defined these experiences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Bootcamp Showcase Content Section -->
+        <section class="showcase-section" style="border: none; background: transparent; padding: 20px 0;">
+            <div class="container">
+                <div class="tabs-wrapper">
+                    <!-- Tab Controls -->
+                    <div class="tabs-nav">
+                        <button class="tab-btn active" data-tab="teens-bootcamp">Teen Bootcamp (Ages 13+)</button>
+                        <button class="tab-btn" data-tab="preteens-bootcamp">Pre-Teen Bootcamp (Ages 10-12)</button>
+                        <button class="tab-btn" data-tab="upcoming-bootcamp">Future Cohorts</button>
+                    </div>
+                    
+                    <!-- Tab 1: Teens Bootcamp -->
+                    <div class="tab-content active" id="teens-bootcamp">
+                        <div class="bootcamp-showcase">
+                            <div class="bootcamp-header-block">
+                                <div class="bootcamp-header-grid">
+                                    <div>
+                                        <h3>Strategic Edge</h3>
+                                        <p style="margin-top: 8px; font-weight: 500; color: var(--brand-gray);">Real-World Maths, Money Logic &amp; AI Tools</p>
+                                    </div>
+                                    <div class="bootcamp-meta-badges">
+                                        <span class="bootcamp-meta-badge">Ages 13+</span>
+                                        <span class="bootcamp-meta-badge">5 Days (1.5 hrs/day)</span>
+                                        <span class="bootcamp-meta-badge">Completed Pilot</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bootcamp-summary">
+                                <strong>Pilot Batch Timeline:</strong> May 28 – June 2, 2026
+                            </div>
+                            
+                            <div class="bootcamp-grid">
+                                <div class="curriculum-side">
+                                    <h3><i data-lucide="calendar" style="color: var(--brand-purple);"></i> Day-by-Day Journey</h3>
+                                    <div class="timeline">
+                                        <!-- Day 1 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 1</div>
+                                            <h4 class="timeline-title">The Math of Strategy: Game Theory &amp; Probability</h4>
+                                            <p class="timeline-description">Unveiling the math behind video game drops, calculate risk vs. reward, and teaching young adults to make smarter, data-backed decisions.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Probability</span>
+                                                <span class="tag-case">Game Drops</span>
+                                                <span class="tag-tool">Expected Value Model</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 2 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 2</div>
+                                            <h4 class="timeline-title">The Math of Wealth: Compounding &amp; Money Value</h4>
+                                            <p class="timeline-description">Demonstrating how early savings completely shift financial trajectories. Shifting mindsets from linear earnings to exponential compounding.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Compounding</span>
+                                                <span class="tag-case">Future Millionaire</span>
+                                                <span class="tag-tool">Excel Compound Calculator</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 3 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 3</div>
+                                            <h4 class="timeline-title">The Math of Trends: Data Literacy &amp; "Lie Detection"</h4>
+                                            <p class="timeline-description">Understanding how social media algorithms predict user behavior. Spotting misleading statistics and fake data representations in public media.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Data Analysis</span>
+                                                <span class="tag-case">Algorithm Prediction</span>
+                                                <span class="tag-tool">Statistical Logic Models</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 4 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 4</div>
+                                            <h4 class="timeline-title">The Math of Problem Solving: Fermi Estimation &amp; Logic</h4>
+                                            <p class="timeline-description">Learning quick mental frameworks to solve massive, complex, real-world estimation problems. Building top-down, big-picture logical thinking.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Fermi Estimation</span>
+                                                <span class="tag-case">Market Sizing</span>
+                                                <span class="tag-tool">Logic Templates</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 5 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 5</div>
+                                            <h4 class="timeline-title">The Math of Resources: Optimization &amp; Smart Budgeting</h4>
+                                            <p class="timeline-description">Simulating the setup of a mini-business or event on a strict budget. Translating trade-offs and constraints into math to find the perfect plan.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Optimization</span>
+                                                <span class="tag-case">Event Launch</span>
+                                                <span class="tag-tool">Excel Solver / AI No-Code</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="details-side">
+                                    <div class="details-widget">
+                                        <h4 class="details-widget-title">Bootcamp Logistics</h4>
+                                        <ul class="details-list">
+                                            <li class="details-list-item">
+                                                <span class="details-label">Location</span>
+                                                <span class="details-val">Hyderabad</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Requirements</span>
+                                                <span class="details-val">Laptop with Excel</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Pedagogy</span>
+                                                <span class="details-val">Analytical Fluency Framework</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Key Deliverable</span>
+                                                <span class="details-val">AI-led Capstone Project</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="details-widget">
+                                        <h4 class="details-widget-title">Custom Simulations Used</h4>
+                                        <a href="https://lootboxsimulatorexpectedvalue.netlify.app/" target="_blank" class="sim-tool-link">
+                                            <i data-lucide="external-link"></i>
+                                            <span>Lootbox Expected Value Sim</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 2: Pre-Teens Bootcamp -->
+                    <div class="tab-content" id="preteens-bootcamp">
+                        <div class="bootcamp-showcase">
+                            <div class="bootcamp-header-block">
+                                <div class="bootcamp-header-grid">
+                                    <div>
+                                        <h3>Unlocking the "Investor Mindset"</h3>
+                                        <p style="margin-top: 8px; font-weight: 500; color: var(--brand-gray);">Real-World Maths, Money Logic &amp; AI Tools</p>
+                                    </div>
+                                    <div class="bootcamp-meta-badges">
+                                        <span class="bootcamp-meta-badge">Ages 10-12</span>
+                                        <span class="bootcamp-meta-badge">7 Days (1.5 hrs/day)</span>
+                                        <span class="bootcamp-meta-badge">Completed Pilot</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="bootcamp-summary">
+                                <strong>Pilot Batch Timeline:</strong> June 1 – June 8, 2026
+                            </div>
+                            
+                            <div class="bootcamp-grid">
+                                <div class="curriculum-side">
+                                    <h3><i data-lucide="calendar" style="color: var(--brand-purple);"></i> Day-by-Day Journey</h3>
+                                    <div class="timeline">
+                                        <!-- Day 1 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 1</div>
+                                            <h4 class="timeline-title">Risk vs. Reward Mechanics</h4>
+                                            <p class="timeline-description">Using probability and expected value calculation to analyze game logic. Young adults play a custom mystery loot box simulator and reverse-engineer its odds.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Expected Value</span>
+                                                <span class="tag-case">Mystery Loot Box</span>
+                                                <span class="tag-tool">Gacha Game simulator</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 2 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 2</div>
+                                            <h4 class="timeline-title">The Nike Factory Turnaround: Profit &amp; Loss</h4>
+                                            <p class="timeline-description">Young adults take over a factory facing a -10% net loss and pivot it to a +30% profit by mastering Fixed vs. Variable costs and calculating target product pricing using Excel's Goal Seek tool.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Fixed &amp; Variable Costs</span>
+                                                <span class="tag-case">Nike Factory Pivot</span>
+                                                <span class="tag-tool">Goal Seek Excel</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 3 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 3</div>
+                                            <h4 class="timeline-title">Global Crisis &amp; Data Modeling</h4>
+                                            <p class="timeline-description">Simulating a geopolitical supply chain crisis. Young adults calculate weighted equations to balance strict real-world business constraints (price caps vs margin targets) under pressure.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Optimization &amp; Weights</span>
+                                                <span class="tag-case">Supply Chain War Room</span>
+                                                <span class="tag-tool">Excel Modeling Cockpit</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 4 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 4</div>
+                                            <h4 class="timeline-title">Wealth &amp; Early Investing: Spenders vs. Investors</h4>
+                                            <p class="timeline-description">Introducing compound interest. Contrasiting Linear Growth (spender path) with Exponential Growth (investor path). Evaluating FDs, banks, and fractional business ownership.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Linear vs. Exponential</span>
+                                                <span class="tag-case">20-Year Life Choices</span>
+                                                <span class="tag-tool">Compounding Engine</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 5 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Day 5</div>
+                                            <h4 class="timeline-title">Ethical AI Tools &amp; Prompt Engineering</h4>
+                                            <p class="timeline-description">Leveraging Large Language Models (Gemini) for strategic research and problem solving. Translating conceptual prompt designs into structured spreadsheet blueprints.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">Prompt Engineering</span>
+                                                <span class="tag-case">War Room Research</span>
+                                                <span class="tag-tool">LLM (Gemini) / Excel</span>
+                                            </div>
+                                        </div>
+                                        <!-- Day 6 & 7 -->
+                                        <div class="timeline-item">
+                                            <div class="timeline-marker"></div>
+                                            <div class="timeline-day">Days 6 &amp; 7</div>
+                                            <h4 class="timeline-title">Live Capstone Project: Build "Asteroid Mining Rush"</h4>
+                                            <p class="timeline-description">Two days of high-velocity software composition. Young adults leveraged an AI agent and advanced prompt engineering to compile over 7,000 lines of clean code, building a complete, playable space-mining strategy game.</p>
+                                            <div class="timeline-meta">
+                                                <span class="tag-concept">AI Agents</span>
+                                                <span class="tag-case">Asteroid Mining Rush</span>
+                                                <span class="tag-tool">7000+ Lines of Code</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="details-side">
+                                    <div class="details-widget">
+                                        <h4 class="details-widget-title">Bootcamp Logistics</h4>
+                                        <ul class="details-list">
+                                            <li class="details-list-item">
+                                                <span class="details-label">Location</span>
+                                                <span class="details-val">Hyderabad</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Requirements</span>
+                                                <span class="details-val">No laptops needed! (Supplied)</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Pedagogy</span>
+                                                <span class="details-val">Analytical Fluency Framework</span>
+                                            </li>
+                                            <li class="details-list-item">
+                                                <span class="details-label">Key Deliverable</span>
+                                                <span class="details-val">AI-led Capstone Project</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="details-widget">
+                                        <h4 class="details-widget-title">Custom Simulations Used</h4>
+                                        <a href="https://nikefactorylab.netlify.app/" target="_blank" class="sim-tool-link">
+                                            <i data-lucide="external-link"></i>
+                                            <span>Nike Factory Profit &amp; Loss Lab</span>
+                                        </a>
+                                        <a href="https://lifeandwealthchoices.netlify.app/" target="_blank" class="sim-tool-link">
+                                            <i data-lucide="external-link"></i>
+                                            <span>Life &amp; Wealth Choices Sim</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Student Showcase Hero Banner -->
+                            <div class="student-showcase-banner">
+                                <div class="showcase-content">
+                                    <div class="showcase-badge"><i data-lucide="sparkles"></i> Capstone Game Showcase</div>
+                                    <h3>Asteroid Mining Rush</h3>
+                                    <p>
+                                        Our young adults co-created this complete web-based space strategy game. Leveraging an AI agent and prompt engineering concepts mastered during the bootcamp, they compiled over <strong>7,000 lines of functional code</strong> to bring their logical designs to life!
+                                    </p>
+                                    <div class="showcase-stats">
+                                        <div class="showcase-stat">
+                                            <span class="stat-val">7,000+</span>
+                                            <span class="stat-lbl">Lines of Code</span>
+                                        </div>
+                                        <div class="showcase-stat">
+                                            <span class="stat-val">100%</span>
+                                            <span class="stat-lbl">AI Agent Co-Built</span>
+                                        </div>
+                                        <div class="showcase-stat">
+                                            <span class="stat-val">Ages 10-12</span>
+                                            <span class="stat-lbl">Creator Age</span>
+                                        </div>
+                                    </div>
+                                    <div class="showcase-actions">
+                                        <a href="https://asteroidminingrush.netlify.app/" target="_blank" class="btn btn-primary">
+                                            <span>Play Asteroid Mining Rush</span>
+                                            <i data-lucide="play"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="showcase-visual">
+                                    <div class="game-mockup-card">
+                                        <div class="mockup-header">
+                                            <span class="mockup-dot red"></span>
+                                            <span class="mockup-dot yellow"></span>
+                                            <span class="mockup-dot green"></span>
+                                            <span class="mockup-title">asteroidminingrush.netlify.app</span>
+                                        </div>
+                                        <div class="mockup-body">
+                                            <div class="game-title-screen">
+                                                <i data-lucide="rocket" class="space-icon"></i>
+                                                <div class="game-logo-text">ASTEROID MINING RUSH</div>
+                                                <div class="game-subtitle">A Strategic Math &amp; Economy Sim</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Tab 3: Future Programs -->
+                    <div class="tab-content" id="upcoming-bootcamp">
+                        <div class="empty-tab-state">
+                            <div class="empty-state-icon">
+                                <i data-lucide="sparkles" style="color: var(--brand-purple); width: 64px; height: 64px;"></i>
+                            </div>
+                            <h3 class="empty-state-title">Future Programs &amp; Cohorts</h3>
+                            <p class="empty-state-desc">
+                                We are currently designing advanced cohorts, specialized masterclasses, and next-level math modeling sessions for late 2026. 
+                            </p>
+                            <p style="font-weight: 600; color: var(--brand-black); margin-bottom: 24px;">
+                                Want to stay informed when registration opens for upcoming batches?
+                            </p>
+                            <a href="../index.html#contact" class="btn btn-primary">Join the Notification List</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-compact-container">
+            <div class="footer-copy">
+                © 2026 Mindplexus Education. All rights reserved.
+            </div>
+            <div class="footer-meta-info">
+                Registered MSME Enterprise, Government of India UDYAM Reg No: UDYAM-TS-20-0196052
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="../script.js"></script>
+</body>
+</html>
